@@ -1,12 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import './App.css';
-import { AllLink } from './components/AllLink';
 
 //components
 import { Page1 } from './components/Page1';
 import { Page2 } from './components/Page2';
 import { Page3 } from './components/Page3';
+import { AllLink } from './components/AllLink';
 
 function App() {
   return (
